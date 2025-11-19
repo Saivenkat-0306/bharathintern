@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat intern-personal portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+    <!-- HEADER & NAVIGATION -->
+    <header class="header">
+        <div class="container nav">
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-sun"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME / HERO SECTION -->
+        <section id="home" class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="highlight">SAI VENKAT PAMULA</span></h1>
+                    <h2>Frontend Developer</h2>
+                    <p>I build exceptional digital experiences with modern web technologies. Focused on creating beautiful, functional, and user-friendly applications.</p>
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                </div>
+                <div class="hero-image"></div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image"></div>
+                <div class="about-info">
+                    <h3>Who I Am</h3>
+                    <p>I’m Sai Venkat, a Computer Science and Engineering student. I have hands-on experience in web development using HTML, CSS, and JavaScript, and I enjoy building responsive interfaces. I’m passionate about learning new technologies and applying them to solve real-world problems.</p>
+                    <div class="detail-cards">
+                        <div class="detail-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Education</h4>
+                            <p>B.TECH in Computer Science and Engineering<br>CMR College Of Engineering and Technology, 2022-present</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+     <section id="skills" class="container">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <i class="fas fa-code skill-icon"></i>
+            <h4>C</h4>
+            <p class="highlight">Intermediate</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-code skill-icon"></i>
+            <h4>C++</h4>
+            <p class="highlight">Intermediate</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 70%;"></div></div>
+        </div>
+        <div class="skill-card">
+            <i class="fab fa-java skill-icon"></i>
+            <h4>Java</h4>
+            <p class="highlight">Advanced</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-project-diagram skill-icon"></i>
+            <h4>DSA</h4>
+            <p class="highlight">Intermediate</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-card">
+            <i class="fab fa-python skill-icon"></i>
+            <h4>Python</h4>
+            <p class="highlight">Intermediate</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-card">
+            <i class="fab fa-html5 skill-icon"></i>
+            <h4>HTML</h4>
+            <p class="highlight">Expert</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 95%;"></div></div>
+        </div>
+        <div class="skill-card">
+            <i class="fab fa-css3-alt skill-icon"></i>
+            <h4>CSS</h4>
+            <p class="highlight">Expert</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-card">
+            <i class="fab fa-js-square skill-icon"></i>
+            <h4>JavaScript</h4>
+            <p class="highlight">Advanced</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-card">
+            <i class="fas fa-database skill-icon"></i>
+            <h4>MySQL</h4>
+            <p class="highlight">Intermediate</p>
+            <div class="progress-bar"><div class="progress-bar-fill" style="width: 75%;"></div></div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- PROJECTS SECTION -->
+     <section id="projects" class="container">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+
+        <!-- Project 1: Text-to-Speech -->
+        <div class="project-card">
+            <img src="project1.jpg" alt="Text-to-Speech Project">
+            <div class="project-details">
+                <h4>Text-to-Speech Web Application</h4>
+                <p>Developed a responsive Text-to-Speech web app using Web Speech API with customizable voice controls.</p>
+                <div class="tech-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="http://127.0.0.1:5501/">Live Demo</a>
+                    <a href="https://github.com/Saivenkat-0306/Text-speech-converter.git">Source Code</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2: Netflix Clone -->
+        <div class="project-card">
+            <img src="project2.jpg" alt="Netflix Clone Project">
+            <div class="project-details">
+                <h4>Netflix Homepage Clone</h4>
+                <p>Recreated the Netflix homepage UI using HTML & CSS with full responsiveness and hover effects.</p>
+                <div class="tech-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="http://127.0.0.1:5501/">Live Demo</a>
+                    <a href="https://github.com/Saivenkat-0306/netflixfinal.git">Source Code</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="container" style="min-height: 50vh;">
+            <h2 class="section-title">Get In Touch</h2>
+            <p style="text-align:center; color: var(--color-text-secondary); margin-bottom: 40px;">Have a project or a job opportunity? Feel free to reach out!</p>
+            <div style="text-align: center;">
+                <a href="mailto:saivenkatpamula@gmail.com" class="btn btn-primary" style="font-size: 1.2rem;">Email Alex</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://github.com/Saivenkat-0306"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/saivenkat_0306"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/sai-venkat-a01b222a2/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
